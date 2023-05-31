@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+
+/* ---------------------- *\
+    *     # HTML 
+\* ---------------------- */
+
+
+html{
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none; 
+}
+
+
+/* -------------------- *\
+    *     # BODY
+\* -------------------- */
+
+body{
+    background-color:white;
+}
+
+
+/* ---------------------- *\
+    *  #NAVIGATION BAR
+\* ---------------------- */
+
+.header{
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 3%;
+    background-color: black !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s linear;
+    
+}
+/* --------------------------------*\
+    *  #NAVIGATION BAR - CONTENTS
+\* --------------------------------*/
+
+.header.navbar a{
+    font-size: 1.6rem;
+    color:white !important;
+    margin: 0.8rem;
+    padding: 0.8rem;
+    cursor: pointer;
+    font-weight: 400;
+    transition: ease-in 0.1s;
+}
+
+
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+/* ---------------------- *\
+    *  # HOVER EFFECT
+\* ---------------------- */
+a:hover{
+   color: #fff;
+   text-shadow: 0 0 10px cyan,
+   0 0 15px cyan,
+   0 0 25px cyan,
+   0 0 35px cyan;
+}
+
+
+
+
+.container-fluid .name{
+    font-size: 40px;
+    color: white; 
+    position: absolute;
+    margin-left: 120px;
+}
+
+/* ---------------------- *\
+    * # DIVERSCLUB LOGO
+\* ---------------------- */
+
+.logo{
+    margin-top: 0%;
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+/* ---------------------- *\
+      *   #BUTTON
+\* ---------------------- */
+
+.button.leftbtn {
+    border: none;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    color: black;
+    border: 1px solid #e1ad01;
+    background-color: #e1ad01;
+
+
+}
+
+/* ---------------------- *\
+      * #BUTTON - HOVER
+\* ---------------------- */
+
+button.leftbtn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+
+
+}
+
+/* ---------------------- *\
+   * # ABOUT US TITLE
+\* ---------------------- */
+
+
+h1 {
+
+    transform: translateY(-260%);
+    font-size: 50px;
+    color: #002952;
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+
+/* ---------------------- *\
+   * # SECTION TOP
+\* ---------------------- */
+section {
+    position: relative;
+}
+
+.topImg {
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    background-position: center;
+    opacity: 70%;
+
+
+}
+
+
+/* ---------------------- *\
+   * # ABOUT US CONTENT 
+\* ---------------------- */
+
+p.aboutContent {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    transform: translateY(-50%);
+    padding-left: 150px;
+    padding-right: 150px;
+    font-weight: 300;
+    margin-bottom: 180px;
+    margin-top: 30px;
+    line-height: 40px;
+
+
+
+}
+
+/* ---------------------- *\
+   * # MISSION IMAGE
+\* ---------------------- */
+
+.aboutBox {
+    padding: 20px;
+}
+ 
+
+
+img.left-image {
+    padding: 30px;
+    background-color: #e1ad01;
+    margin-right: 350px;
+
+}
+
+.image-one {
+    display: flex;
+    align-items: center;
+    position: absolute
+}
+
+/* ---------------------- *\
+   * # MISSION - TITLE
+\* ---------------------- */
+
+
+
+h2.mission {
+    font-size: 30px;
+    position: relative;
+    top: -180px;
+}
+/* --------------------------- *\
+   * # MISSION - TEXT CONTENT
+\* --------------------------- */
+p.missiontext {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: -150px;
+    line-height: 40px;
+    transform: translate(-150px);
+    display: inline-block;
+    word-spacing: 10px
+}
+
+p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+    word-spacing: 10px
+}
+
+/* ------------------------ *\
+   * # MISSION - CONTAINER
+\* ------------------------ */
+.aboutContainer {
+
+    padding-top: 190px;
+
+}
+
+
+/* ---------------------- *\
+   * # VISION IMAGE
+\* ---------------------- */
+
+.image-three {
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+img.left-image2 {
+    padding: 30px;
+    background-color: #e1ad01;
+    margin-left: 689px;
+    margin-top: 500px
+}
+
+
+
+/* ---------------------- *\
+   * # VISION - TITLE
+\* ---------------------- */
+h2.vision {
+    font-size: 30px;
+    position: relative;
+    top: -380px;
+    left: 300px;
+    margin-bottom: -140px
+}
+
+/* --------------------------- *\
+   * # VISION - TEXT CONTENT
+\* --------------------------- */
+
+p.visiontext {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+    transform: translate(110px);
+    display: inline-block;
+    max-width: 490px;
+    word-spacing: 10px;
+    margin-top: -800px
+}
+
+
+.yellow-backg{
+    width:100%;
+     margin: 0;
+     padding: 20px;
+     background-color: #e1ad01
+     
+}
+
+
+
+  .social a{
+      font-size: 4.5em;
+      padding: 3rem;
+  }
+

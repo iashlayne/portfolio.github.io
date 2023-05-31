@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+
+
+
+/* ---------------------- *\
+    *     # HTML 
+\* ---------------------- */
+
+html {
+    font-size: 60%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
+
+
+/* ---------------------- *\
+    * # DIVERSCLUB LOGO
+\* ---------------------- */
+
+
+.logo{
+    margin-top: 0%;
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+/* ---------------------- *\
+    *  #NAVIGATION BAR
+\* ---------------------- */
+
+.header{
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 3%;
+    background-color: black !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s linear;
+    
+}
+
+
+/* --------------------------------*\
+    *  #NAVIGATION BAR - CONTENTS
+\* --------------------------------*/
+.header.navbar a{
+    font-size: 1.6rem;
+    color:white !important;
+    margin: 0.8rem;
+    padding: 0.8rem;
+    cursor: pointer;
+    font-weight: 400;
+    transition: ease-in 0.1s;
+}
+
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+/* ---------------------- *\
+    *  # HOVER EFFECT
+\* ---------------------- */
+
+a:hover{
+   color: #fff;
+   text-shadow: 0 0 10px cyan,
+   0 0 15px cyan,
+   0 0 25px cyan,
+   0 0 35px cyan;
+}
+
+
+
+
+.container-fluid .name{
+    font-size: 40px !important;
+    color: white; 
+    position: absolute;
+    margin-left: 120px;
+}
+
+
+
+/* ---------------------- *\
+      *     #BUTTON
+\* ---------------------- */
+
+.button.leftbtn {
+    border: none;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    color: black;
+    border: 1px solid #e1ad01;
+    background-color: #e1ad01;
+
+
+}
+
+/* ---------------------- *\
+      * #BUTTON - HOVER
+\* ---------------------- */
+
+button.leftbtn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+/* ---------------------- *\
+     * #VIDEOCONTAINER
+\* ---------------------- */
+
+
+
+.containerVid {
+    margin-top: 10rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    object-fit: fill;
+    background-attachment: fixed;
+
+    /* background-image: url("posterimage.jpg");
+    background-position: center;
+    background-size: cover; */
+}
+
+.videobox {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    opacity: 100%;
+}
+/* ------------------------ *\
+    *  # HOME TEXT VIDEO
+\* ------------------------ */
+
+.homeTxt {
+    position: fixed;
+    margin-top: -170px;
+    left: 0%;
+    transform: translate(0%, 50%);
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 49px;
+    line-height: 50px;
+
+
+
+}
+
+
+.homeTxtR {
+    position: fixed;
+    margin-top: -170px;
+    right: 0%;
+    transform: translate(0%, 50%);
+    color: white;
+    font-size: 24px;
+    text-align: right;
+    margin-right: 49px;
+    line-height: 50px;
+
+
+
+}
+
+/* ---------------------- *\
+    *  # HOME TEXT VIDEO
+\* ---------------------- */
+.homeTxt h2 {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+
+
+.homeTxt p {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+
+}
+.homeTxtR h2 {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+
+
+.homeTxtR p {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+/* ------------------------ *\
+    *  # LOG IN CONTAINER
+\* ------------------------ */
+
+.loginContainer {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    height: 340px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo-login {
+    width: 80px;
+    margin: auto;
+}
+
+
+.logo-login img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px #5f5f5f,
+        0px 0px 0px 5px #ecf0f3,
+        8px 8px 15px #a7aaa7,
+        -8px -8px 15px #fff;
+}
+
+
+.wrapper-login {
+    max-width: 350px;
+    min-height: 500px;
+    margin: 80px auto;
+    padding: 40px 30px 30px 30px;
+    background-color: #ecf0f3;
+    border-radius: 15px;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+
+.wrapper-login .name {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: #555;
+}
+
+
+
+
+.wrapper-login .form-field input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    color: #666;
+    padding: 10px 15px 10px 10px;
+    /* border: 1px solid red; */
+}
+
+.wrapper-login .form-field {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+}
+
+.wrapper-login .form-field .fas {
+    color: #555;
+}
+
+.wrapper-login .btn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    background-color: #03A9F4;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #b1b1b1,
+        -3px -3px 3px #fff;
+    letter-spacing: 1.3px;
+}
+
+.wrapper-login .btn:hover {
+    background-color: #039BE5;
+}
+
+.wrapper-login a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #03A9F4;
+}
+
+.wrapper-login a:hover {
+    color: #039BE5;
+}
+
+@media(max-width: 380px) {
+    .wrapper-login {
+        margin: 30px 20px;
+        padding: 40px 15px 15px 15px;
+    }
+}
+
+.popup{
+
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    width: 380px;
+    padding: 20px 30px;
+    background: #fff;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    transition:top 0ms ease-in-out 200ms,
+    opacity 200ms ease-in-out 0ms,
+    transform 20ms ease-in-out 0ms;
+
+}
+
+.popup.active{
+    top: 50%;
+    opacity: 1;
+    transform: translate(50%, 50%) scale(1);
+    transition:top 0ms ease-in-out 200ms,
+    opacity 200ms ease-in-out 0ms,
+    transform 20ms ease-in-out 0ms;
+
+}
+
+.popup .close-btn{
+    position:absolute;
+    top: 10px;
+   
+    height: 15px;
+    background: #888;
+    color: #eee;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}

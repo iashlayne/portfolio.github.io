@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<!--start of <html> tag-->
+<html lang="en">
+<!--start of <head> tag -->
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--This is the link for the bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+  <!--this is link of stylesheet linked on style folder > divercourses.css -->
+    <link rel="stylesheet" href="../style/divecourses.css">
+  <!--"link rel="icon" is for the icon/logo which shows the at the top of the browser -->
+    <link rel="icon" href="my_logo.png">
+   <!--Using <title> tag entitled "Our Dive Courses" means your in dive courses page-->
+    <title>Our Dive Courses</title>
+<!--end of </head> tag -->
+</head>
+ <!--this is for the navigation bar for the header-->
+<body>
+
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top header">
+        <div class="container-fluid">
+            
+         <!--this nav class are contents for the navbar (home, about, divesites, contact us)-->
+            <div class="navbar">
+                <h3 href="#name" class="name">DiversClub</h3><img class="logo" src="../Media/my_logo.png">
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResID">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          <!--this is the link for the html's of home, about, divesites, contact us and join now page-->
+            <div class="collapse navbar-collapse" id="navbarResID">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/divesites.html">Dive Sites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contact.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="../pages/joinus.html">
+                            <button class="button leftbtn"> Join Now </button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+  <!--section tag for the dive courses content-->
+    <section>
+
+ <!--*---------------*-->
+<!-- * INFO * -->
+<!--*---------------*-->
+    
+    <!--h1 for the top name of the page "Our Diver Courses"-->
+        <h1> Our Dive Courses </h1>
+     <!--p class for the "sub" means subtitle and "p.sub" style for the css-->
+        <p class="sub"> Check out these dive courses. Get a discount as a Diversclub member </p>
+
+<!--*---------------*---->
+<!-- * SCUBA COURSES * -->
+<!--*---------------*---->
+
+<!--ul class="courseList" for the unorder list of diving courses available and .courseList for css -->
+        <ul class="courseList">
+        <!--div class="courseContainer" for arrangement the courses box of img, description, and price of the course-->
+            <div class="courseContainer">
+            <!--div class="courseTicket" for the design/style the course box of img, description, and price of the course -->
+                <div class="courseTicket">
+                <!--img class="courseImg" for the style of the image itself src in media folder > discover.jpg"-->
+                    <img class="courseImg" src="../Media/discover.jpg">
+                <!--div class="courseContent" for style description of the course-->
+                    <div class="courseContent">
+                    <!-- we used <h2> tag for the name of the diving course "Discovery of Scuba Diving"-->
+                        <h2> Discovery of Scuba Diving</h2>
+                    <!--p class="courseText" for the style diving course content of "Discovery of Scuba Diving"-->
+                        <p class="courseText"> This one-day PADI course gives you the opportunity to scuba dive to a
+                            depth of 12 meters.
+                            Although it doesn't lead to a certification, it can count as your first open water dive
+                            for the purposes of earning your PADI open water certification.
+                            People who want to learn what it's like to breathe underwater
+                            and experience the undersea world should definitely check out this course.</p>
+                    <!--end of </div> tag for courseContent -->
+                    </div>
+
+                     <!--div class="coursePrice" for style of "Discovery of Scuba Diving" price-->
+                    <div class="coursePrice">
+                    <!--<h4> tag for the "Price" name-->
+                        <h4> Price </h4>
+                    <!--price of "Discovery of Scuba Diving" -->
+                        <p> 575 AED </p>
+                    <!-- a href from the pages folder "joinus.html" when user clicked direct to join the club page-->
+                    <a href="../pages/joinus.html">
+                        <button class="booknow">Book Now</button>
+                    </a>
+                 <!--end of </div> tag for "coursePrice"-->
+                    </div>
+                <!--end of </div> tag for "courseTicket"-->
+                </div>
+
+
+                <!--div class="courseTicket" for the design/style the course box of img, description, and price of the course -->
+                <div class="courseTicket">
+                 <!--img class="courseImg" for the style of the image itself src in media folder > openwater.jpg"-->
+                    <img class="courseImg" src="../Media/openwater.jpg">
+                <!--div class="courseContent" for style description of the course-->
+                    <div class="courseContent">
+                <!-- we used <h2> tag for the name of the diving course "Open Water Course"--> 
+                        <h2> Open Water Course </h2>
+                <!--p class="courseText" for the style diving course content of "Open Water Course"-->       
+                        <p class="courseText"> Four training days :
+                            Five Knowledge Development theory workshops.
+                            Five pool dives to develop fundamental scuba abilities.
+                            Four open water dives are available for you to test your abilities and explore,
+                            including four dives on each beach. </p>
+                
+                    <!--end of </div> tag for courseContent -->
+                    </div>
+
+                    <!--div class="coursePrice" for style of "Open Water Course" price-->
+                    <div class="coursePrice">
+                        <!--<h4> tag for the "Price" name-->
+                        <h4> Price </h4>
+                         <!-- price of "Open Water Course" -->
+                        <p> 2,500 AED </p>
+
+                        <!-- a href from the pages folder "joinus.html" when user clicked direct to join the club page-->
+                        <a href="../pages/joinus.html">
+                            <button class="booknow">Book Now</button>
+                        </a>
+                    <!--end of </div> tag for "coursePrice"-->   
+                    </div>
+                   <!--end of </div> tag for "courseTicket"-->
+                </div>
+ <!--div class="courseTicket" for the design/style the course box of img, description, and price of the course -->
+                <div class="courseTicket">
+            <!--img class="courseImg" for the style of the image itself src in media folder > advanceopen.jpg"-->
+                    <img class="courseImg" src="../Media/advanceopen.jpg">
+              <!--div class="courseContent" for style description of the course-->
+                    <div class="courseContent">
+                   <!-- we used <h2> tag for the name of the diving course "Advanced Open Water"--> 
+                        <h2> Advanced Open Water </h2>
+                      <!--p class="courseText" for the style diving course content of "Advanced Open Water"-->
+                        <p class="courseText"> Advanced Open Water Diver course is improving your abilities.
+                            You'll test your deep diving abilities, learn buoyancy and navigation,
+                            and complete three specialty dives of your choice.
+                            You can earn credit toward PADI® specialty licenses
+                            for each specialty dive you completed.</p>
+                    <!--end of </div> tag for courseContent -->
+                    </div>
+               <!--div class="coursePrice" for style of "Advanced Open Water" price-->
+                    <div class="coursePrice">
+                 <!--<h4> tag for the "Price" name-->
+                        <h4> Price </h4>
+                 <!-- price of "Advanced Open Water" -->
+                        <p> 1,500 AED </p>
+               <!-- a href from the pages folder "joinus.html" when user clicked direct to join the club page-->
+               <a href="../pages/joinus.html">
+                <button class="booknow">Book Now</button>
+               </a>
+                  <!--end of </div> tag for "coursePrice"-->
+                    </div>
+                <!--end of </div> tag for "courseTicket"-->
+                </div>
+            <!--div class="courseTicket" for the design/style the course box of img, description, and price of the course -->
+                <div class="courseTicket">
+            <!--img class="courseImg" for the style of the image itself src in media folder > Rescue.jpg"-->
+                    <img class="courseImg" src="../Media/Rescue.jpg">
+               <!--div class="courseContent" for style description of the course-->
+                    <div class="courseContent">
+                       <!-- we used <h2> tag for the name of the diving course "Rescue Diving"--> 
+                        <h2> Rescue Diving </h2>
+                  <!--p class="courseText" for the style diving course content of "Rescue Diving"-->
+                        <p class="courseText"> The PADI Rescue Diver course equips you with the skills necessary
+                            to handle both mild and severe dive emergencies.
+                            You gain understanding and practice responding by participating in rescue exercises.
+                            You exercise your knowledge and skills in emergency scenarios.</p>
+               <!--end of </div> tag for courseContent -->     
+                    </div>
+
+            <!--div class="coursePrice" for style of "Rescue Diving" price-->
+                    <div class="coursePrice">
+                     <!--<h4> tag for the "Price" name-->
+                        <h4> Price </h4>
+                     <!-- price of "Rescue Diving" -->
+                        <p> 1,400 AED </p>
+                        <!-- a href from the pages folder "joinus.html" when user clicked direct to join the club page-->
+                        <a href="../pages/joinus.html">
+                            <button class="booknow">Book Now</button>
+                        </a>
+              <!--end of </div> tag for "coursePrice"-->
+                </div>
+           <!--div class="courseTicket" for the design/style the course box of img, description, and price of the course -->
+                <div class="courseTicket">
+             <!--img class="courseImg for the style of the image itself src in media folder > master.jpg"-->
+                    <img class="courseImg" src="../Media/master.jpg">
+                 <!--div class="courseContent" for style description of the course-->
+                    <div class="courseContent">
+                  <!-- we used <h2> tag for the name of the diving course "Master Scuba Diver"--> 
+                        <h2> Master Scuba Diver </h2>
+                  <!--p class="courseText" for the style diving course content of "Master Scuba Diver"-->
+                        <p class="courseText"> The PADI Program of Diver training has a Master Scuba Diver rating,
+                            which is the highest non-professional level.
+                            To earn this level of certification,
+                            you must record a specified number of dives and be proficient
+                            in at least five scuba diving-specific fields. </p>
+            
+                     <!--end of </div> tag for courseContent -->
+                    </div>
+               <!--div class="coursePrice" for style of " Master Scuba Diver" price-->
+                    <div class="coursePrice">
+                   <!--<h4> tag for the "Price" name-->
+                        <h4> Price </h4>
+                      <!-- price of "Master Scuba Diver" -->
+                        <p> 3,000 AED </p>
+                   <!-- a href from the pages folder "joinus.html" when user clicked direct to join the club page-->
+                        <button class="booknow">Book Now</button>
+                        <a href="../pages/joinus.html">
+                            <button class="booknow">Book Now</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </ul>
+    </section>
+<!--end of </body> tag-->
+</body>

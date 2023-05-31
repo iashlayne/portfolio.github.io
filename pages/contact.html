@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!--start of <html> tag-->
+<html lang="en">
+<!--start of <head> tag -->
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--This is the link for the bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <!--this is link of stylesheet linked on style folder > contact.css -->
+  <link rel="stylesheet" href="../style/contact.css">
+  <!--"link rel="icon" is for the icon/logo which shows the at the top tab browser -->
+  <link rel="icon" href="../Media/my_logo.png">
+  <!--Using <title> tag entitled "Contact Us" means your in contact us page-->
+  <title>Contact Us</title>
+  <!--end of </head> tag -->
+</head>
+<!--start of <body> tag-->
+<body>
+
+
+  <!--this is for the navigation bar for the header-->
+
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top header">
+    <div class="container-fluid">
+      <!--this nav class are contents for the navbar (home, about, divesites, contact us)-->
+      <div class="navbar">
+      <!--h3 class="name" for the Diversclub name of the website-->
+        <h3 href="#name" class="name">DiversClub</h3><img class="logo" src="../Media/my_logo.png">
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResID">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResID">
+        <!--this is the link for the html's of home, about, divecourses, divesites, contact us and join now page-->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/divecourses.html">Dive Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/divesites.html">Dive Sites</a>
+          </li>
+          <li>
+            <a href="../pages/joinus.html">
+              <button class="button leftbtn"> Join Now </button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  </br></br></br></br></br></br></br>
+
+<!--*-------------------------*-->
+<!-- * USER INPUT OF CONTACT US * -->
+<!--*-------------------------*-->
+  <section class="ftco-section container-fluid gradient-custom-3">
+    <div class="container gradient-custom-3">
+      <div class="row justify-content-center gradient-custom-3">
+        <div class="col-md-6 text-center mb-5">
+          <h2 class="heading-section">Contact Us!</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <div class="wrapper">
+            <div class="row no-gutters">
+              <div class="col-md-6">
+                <div class="contact-wrap w-100 p-lg-5 p-4">
+                  <h3 class="mb-4">Send us a message</h3>
+                  <div id="form-message-warning" class="mb-4"></div>
+                  <div id="form-message-success" class="mb-4">
+                    Your message was sent, thank you!
+                  </div>
+                  <form method="POST" id="contactForm" name="contactForm" class="contactForm" novalidate="novalidate">
+                    <div class="row">
+                      <div class=" form-outline mb-4 col-md-12">
+                        <div class="form-group">
+                          <input type="text" class="form-control form3Example3cg" name="name" id="name"
+                            placeholder="Name">
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <input type="email" class="form-control form3Example3cg" name="email" id="email"
+                            placeholder="Email">
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <input type="text" class="form-control form3Example3cg" name="subject" id="subject"
+                            placeholder="Subject">
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <textarea name="message" class="form-control form3Example3cg" id="message" cols="30" rows="6"
+                            placeholder="Message"></textarea>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <input type="submit" value="Send Message"
+                            class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">
+                          <div class="submitting"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+<!--*-------------------------*-->
+<!-- * CONTACT US INFO * -->
+<!--*-------------------------*-->
+
+              <div class="col-md-6 d-flex align-items-stretch">
+                <div class="info-wrap w-100 p-lg-5 p-4 img">
+                  <h3>Contact us</h3>
+                  <p class="mb-4">If you have any questions or suggestions just send it here and we'll communicate with
+                    you asap</p>
+                  <div class="dbox w-100 d-flex align-items-start">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                      <span class="fa fa-map-marker"></span>
+                    </div>
+                    <div class="text pl-3">
+                      <p><span>Address:</span> Port Saeed Deira, Dubai UAE</p>
+                    </div>
+                  </div>
+                  <div class="dbox w-100 d-flex align-items-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                      <span class="fa fa-phone"></span>
+                    </div>
+                    <div class="text pl-3">
+                      <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+                    </div>
+                  </div>
+                  <div class="dbox w-100 d-flex align-items-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                      <span class="fa fa-paper-plane"></span>
+                    </div>
+                    <div class="text pl-3">
+                      <p><span>Email:</span> <a href="mailto:divesclub@info.ae">divesclub@info.ae</a></p>
+                    </div>
+                  </div>
+                  <div class="dbox w-100 d-flex align-items-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                      <span class="fa fa-globe"></span>
+                    </div>
+                    <div class="text pl-3">
+                      <p><span>Website</span> <a href="#">divesclub.ae</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!--end of </body> tag-->
+
+</body>

@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+@font-face {
+    font-family: TouchOfNature-vZBA;
+    src: url(TouchOfNature-vZBA.ttf);
+}
+
+html {
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+
+
+/* ---------------------- *\
+    *  #NAVIGATION BAR
+\* ---------------------- */
+
+
+
+
+.logo{
+    margin-top: 0%;
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.header{
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 3%;
+    background-color: black !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s linear;
+    
+}
+
+
+.header.navbar a{
+    font-size: 1.6rem;
+    color:white !important;
+    margin: 0.8rem;
+    padding: 0.8rem;
+    cursor: pointer;
+    font-weight: 400;
+    transition: ease-in 0.1s;
+}
+
+
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+a:hover{
+   color: #fff;
+   text-shadow: 0 0 10px cyan,
+   0 0 15px cyan,
+   0 0 25px cyan,
+   0 0 35px cyan;
+}
+
+
+
+
+.container-fluid .name{
+    font-size: 40px !important;
+    color: white; 
+    position: absolute;
+    margin-left: 120px;
+}
+
+
+
+/* ---------------------- *\
+      *     #BUTTON
+\* ---------------------- */
+
+.button.leftbtn {
+    border: none;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    color: black;
+    border: 1px solid #e1ad01;
+    background-color: #e1ad01;
+
+
+}
+
+button.leftbtn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+
+/* ---------------------- *\
+     * #VIDEOCONTAINER
+\* ---------------------- */
+
+
+
+.containerVid2 {
+    margin-top: 10rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    object-fit: fill;
+    background-attachment: fixed;
+
+    /* background-image: url("posterimage.jpg");
+    background-position: center;
+    background-size: cover; */
+}
+
+.containerVid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: no-repeat center center/cover;
+
+
+    /* background-image: url("posterimage.jpg");
+    background-position: center;
+    background-size: cover; */
+}
+
+.containerVid video{
+   min-width: 100%;
+   min-height: 100%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+    opacity: 80%;
+    object-fit: cover;
+}
+/* ------------------------------------ *\
+      *  #DIVESITES - LOGIN
+\* ------------------------------------ */
+
+.loginContainer {
+    background-color: black;
+}
+
+.loginForm{
+    padding-top: 180px;
+}

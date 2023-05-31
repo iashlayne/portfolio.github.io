@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--start of <html> tag-->
+<html lang="en">
+<!--start of <head> tag -->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Using <title> tag entitled "Diversclub" means your in Home page-->
+	<title>DiversClub</title>
+  <!--"link rel="icon" is for the icon/logo which shows the at the top tab browser -->
+	<link rel="icon" href="Media/my_logo.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <!--this is link of stylesheet linked on style folder > style.css -->
+	<link href="style/style.css" rel="stylesheet">
+<!--end of <head> tag-->
+</head>
+<!--start of <body> tag-->
+<body>
+
+<!--*---------------*-->
+<!-- * NAVBAR * -->
+<!--*---------------*-->
+
+	<!-- NAVIGATION BAR -->
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top header">
+		<div class="container-fluid">
+
+			<div class="navbar">
+				<h3 href="#name" class="name">DiversClub</h3><img class="logo" src="Media/my_logo.png">
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResID">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+	   <!--this is the link for the html's of home, about, divesites, contact us-->
+			<div class="collapse navbar-collapse" id="navbarResID">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="pages/about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="pages/divecourses.html">Dive Courses</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="pages/divesites.html">Dive Sites</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="pages/contact.html">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+
+	<!--- Image Slider -->
+
+<!--*---------------*---->
+<!-- * VIDEO BACKGROUND * -->
+<!--*---------------*---->
+
+	<!--this section contains the video of the homepage of the website-->
+	<section>
+		<div class="containerVid">
+			<video class="videobox" controls autoplay loop muted>
+				<source src="Media/my_video.mp4" type="video/mp4">
+			</video>
+
+
+<!--*---------------*-->
+<!-- * HOME INFO * -->
+<!--*---------------*-->
+
+          <!--div class name "homeTxt" means home text-->
+			<div class="homeTxt">
+				<h2> Join our Club </h2>
+			<!--p class "leftTxt for the subtitle text in the video"-->
+				<p class="leftTxt"> Dive, Explore , Learn and Repeat
+				<p>
+			    <!-- a href for the page of join us.html-->
+					<a href="pages/joinus.html">
+				 <!--button class for the leftbutton which user clicks it will direct in Join Now page-->
+						<button class="button leftbtn"> Join Now </button>
+					</a>
+			</div>
+        <!--div class name "homeTxtR" means home text for member-->
+			<div class="homeTxtR">
+				<h2> Members </h2>
+			
+         <!-- a href for the page of login.html-->
+				<a href="pages/login.html">
+				 <!--button class for the leftbtn which user clicks it will direct in Log in page-->
+					<button id="show-login" class="button leftbtn"> Log in here!</button>
+
+				</a>
+
+
+			</div>
+
+		</div>
+	</section>
+
+
+
+	<!--- Footer -->
+
+<!--JAVASCRIPT file-->
+	<script src="JS/index.js"></script>
+
+</body>
+
+</html>

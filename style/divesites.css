@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+
+
+/* -------------------- *\
+    *     # BODY
+\* -------------------- */
+body {
+    background-color: #dedede;
+}
+/* ---------------------- *\
+    *     # HTML 
+\* ---------------------- */
+
+html {
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
+
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 400px) {
+}
+@media (max-width: 576px) {
+}
+
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 1200px) {
+
+    .header{display: none;}
+     .imgcard {
+    height: 300px;
+    width: 400px;
+    border-radius: 25px;
+    display: block;
+    transition: 0.6s all ease-in-out;
+    box-shadow: 3px 3px 4px rgba(4, 0, 0, 0.57);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------- *\
+    * # DIVERSCLUB LOGO
+\* ---------------------- */
+
+
+.logo{
+    margin-top: 0%;
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+/* ---------------------- *\
+    *  #NAVIGATION BAR
+\* ---------------------- */
+
+.header{
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 3%;
+    background-color: black !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s linear;
+    
+}
+
+
+/* --------------------------------*\
+    *  #NAVIGATION BAR - CONTENTS
+\* --------------------------------*/
+.header.navbar a{
+    font-size: 1.6rem;
+    color:white !important;
+    margin: 0.8rem;
+    padding: 0.8rem;
+    cursor: pointer;
+    font-weight: 400;
+    transition: ease-in 0.1s;
+}
+
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+/* ---------------------- *\
+    *  # HOVER EFFECT
+\* ---------------------- */
+
+a:hover{
+   color: #fff;
+   text-shadow: 0 0 10px cyan,
+   0 0 15px cyan,
+   0 0 25px cyan,
+   0 0 35px cyan;
+}
+
+
+
+
+.container-fluid .name{
+    font-size: 40px !important;
+    color: white; 
+    position: absolute;
+    margin-left: 120px;
+}
+
+
+
+/* ---------------------- *\
+      *   #BUTTON
+\* ---------------------- */
+
+.button.leftbtn {
+    border: none;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    color: black;
+    border: 1px solid #e1ad01;
+    background-color: #e1ad01;
+
+
+}
+/* ---------------------- *\
+      * #BUTTON - HOVER
+\* ---------------------- */
+button.leftbtn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+
+
+
+/* -------------------------------- *\
+      *  #DIVESITES - TITLE
+\* -------------------------------- */
+
+h2.title {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: #002952;
+}
+/* ------------------------------------ *\
+      *  #DIVESITES - TITLE PROPERTIES
+\* ------------------------------------ */
+
+.title {
+    margin-bottom: 15px;
+    margin-top: 120px;
+    padding-top: 30px;
+}
+
+/* ------------------------------------ *\
+      *  #DIVESITES - SUBTITLE
+\* ------------------------------------ */
+
+p.sitesSubtitle {
+    font-family: "Poppins," sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 15px;
+
+}
+
+/* ------------------------------- *\
+      *  #DIVESITES - IMAGE
+\* ------------------------------- */
+
+.imgcard {
+    height: 300px;
+    width: 400px;
+    border-radius: 25px;
+    display: block;
+    transition: 0.6s all ease-in-out;
+    box-shadow: 3px 3px 4px rgba(4, 0, 0, 0.57);
+}
+/* ---------------------------------- *\
+      *  #DIVESITES - IMAGE HOVER
+\* ---------------------------------- */
+
+.imgcard:hover {
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+
+
+/* ------------------------------------ *\
+      *  #DIVESITES - CARD PROPERTIES
+\* ------------------------------------ */
+
+.sitesCard {
+    display: flex;
+    margin: 0;
+    padding: 40px;
+    border-radius: 25px;
+    padding-top: 100px;
+
+}
+
+/* ------------------------------------ *\
+      *  #DIVESITES - CONTAINER
+\* ------------------------------------ */
+
+.sitesContainer {
+    position: relative;
+    width: 100%;
+}
+/* ------------------------------------ *\
+      *  #DIVESITES - TEXT PROPERTIES
+\* ------------------------------------ */
+
+.sitesOverlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 0;
+    width: 108%;
+    transition: 0.6s ease-in-out;
+    overflow: hidden;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+/* ------------------------------------ *\
+      *  #DIVESITES - HOVER TEXT
+\* ------------------------------------ */
+
+.sitesContainer:hover .sitesOverlay {
+    height: 200px;
+    cursor: pointer;
+}
+/* ------------------------------------ *\
+      *  #DIVESITES - TEXT DESCRIPTION
+\* ------------------------------------ */
+
+.sitesText2 {
+    color: white;
+    font-size: 15px;
+    position: relative;
+    top: 30px;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    align-items: center;
+    width: 90%;
+    margin-top: 10px;
+
+
+}
+/* ------------------------------------ *\
+      *  #DIVESITES - COUNTRY TEXT
+\* ------------------------------------ */
+
+.sitesText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -170%);
+    color: white;
+    z-index: 1;
+    font-size: 50px;
+}
+
+/* ------------------------------------ *\
+      *  #DIVESITES - LOCATION TEXT
+\* ------------------------------------ */
+span {
+    font-size: 23px;
+    color: #e1ad01;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+}

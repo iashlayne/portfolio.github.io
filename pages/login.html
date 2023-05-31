@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--start of <head> tag -->
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--This is the link for the bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <!--this is link of stylesheet linked on style folder > joinus.css -->
+    <link rel="stylesheet" href="../style/joinus.css">
+    <!--"link rel="icon" is for the icon/logo which shows the at the top navba -->
+    <link rel="icon" href="../Media/my_logo.png">
+  <!--Using <title> tag entitled "Log In" means your in Log In Page to Visit page-->
+    <title>Log In</title>
+<!--end of </head> tag -->
+</head>
+<!--start of <body> tag-->
+<body>
+
+
+    <!--this is for the navigation bar for the header-->
+<!--*---------------*-->
+<!-- * NAVBAR * -->
+<!--*---------------*-->
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top header">
+        <div class="container-fluid">
+            <!--this nav class are contents for the navbar (home, about, divesites, contact us)-->
+            <div class="navbar">
+                <h3 href="#name" class="name">DiversClub</h3><img class="logo" src="../Media/my_logo.png">
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResID">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResID">
+                <!--this is the link for the html's of home, about, divesites, contact us-->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/divecourses.html">Dive Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/divesites.html">Dive Sites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contact.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="../pages/joinus.html">
+                            <button class="button leftbtn"> Join Now </button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!--this section contains the video of the homepage of the website-->
+
+    <div class="container-full-bg">
+        <div class="containerVid">
+
+            <video class="videobox" autoplay loop muted>
+                <source src="../Media/joinus.mp4" type="video/mp4">
+            </video>
+
+        </div>
+    </div>
+
+  <!--this section contains the log in when Log in here is clicked-->
+
+    <div class="loginForm mask d-flex align-items-center h-100 gradient-custom-3">
+        <div class="container h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                    <div class="card" style="border-radius: 15px;">
+                        <div class="card-body p-5">
+                            <h2 class="text-uppercase text-center mb-5">Login to your account</h2>
+
+                            <form>
+
+                                <div class="form-outline mb-4">
+                                    <input type="text" id="form3Example1cg" class="form-control form-control-lg" />
+                                    <label class="form-label" for="form3Example1cg">Username</label>
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <input type="password" id="form3Example4cg" class="form-control form-control-lg" />
+                                    <label class="form-label" for="form3Example4cg">Password</label>
+                                </div>
+
+                                <div class="d-flex justify-content-center">
+                                    <button type="button" onclick="loginFunction()"
+                                        class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Login</button>
+                                </div>
+
+                                <p class="text-center text-muted mt-5 mb-0">forgot your password? <a href="#!"
+                                        class="fw-bold text-body" onclick="resetFunction()"><u>Reset here</u></a></p>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--script for the log in function-->
+        <script>
+            function loginFunction() {
+                alert("User is now logged in");
+            }
+
+            function resetFunction() {
+                alert("You cannot reset your password now");
+            }
+        </script>
+
+
+
+</body>
+
+</html>
